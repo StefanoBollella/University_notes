@@ -26,8 +26,8 @@ Raccolta di appunti, progetti ed esercitazioni, frutto del mio percorso di studi
 Il materiale presente in questo repository è frutto di **appunti personali** e viene condiviso a **scopo puramente informativo e di consultazione**. Non si garantisce l'accuratezza, la completezza o l'aggiornamento delle informazioni contenute. L'autore **non si assume alcuna responsabilità** per eventuali errori, omissioni o conseguenze derivanti dall'utilizzo di tali informazioni.
 
 ## Contribuisci 
-Segnala errori o proponi miglioramenti.
+<div align="center">
 [![Apri una issue](https://img.shields.io/badge/Apri%20una%20issue-blue)](https://github.com/StefanoBollella/Appunti_Universitari/issues)
-Suggerisci delle correzioni.
-[![Invia una pull request](https://img.shields.io/badge/Invia%20una%20pull%20request-green)](https://github.com/StefanoBollella/Appunti_Universitari/pulls)
 
+[![Invia una pull request](https://img.shields.io/badge/Invia%20una%20pull%20request-green)](https://github.com/StefanoBollella/Appunti_Universitari/pulls)
+</div>
