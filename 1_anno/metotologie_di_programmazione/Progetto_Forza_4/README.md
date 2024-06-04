@@ -1,4 +1,10 @@
-# Come compilare ed eseguire il progetto Forza 4 su console
+# FORZA 4
+Progetto individuale per l'esame di Metotologie di Prograzione anno accademico 2021/2022.
+Simulazione del gioco Forza 4, pensato per l’esecuzione su console.
+
+[![](/Users/stefanobollella/Downloads/IMG_0879.PNG)]
+
+# Come compilare ed eseguire il progetto su console
 
 Dato l'elevato numero di file sorgente da compilare viene utilizzata l'opzione 
 @filename sulla riga di comando. 
