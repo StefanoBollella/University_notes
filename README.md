@@ -4,12 +4,8 @@
 
 **Università La Sapienza di Roma**
 
-[![GitHub license](https://img.shields.io/github/license/StefanoBollella/Appunti_Universitari)](https://github.com/StefanoBollella/Appunti_Universitari/blob/main/LICENSE)
-
 </div>
-
 ---
-
 Raccolta di appunti, progetti ed esercitazioni, frutto del mio percorso di studi nel Corso di Laurea in Informatica (Triennale) presso l'Università La Sapienza di Roma. 🏛️
 
 ## 🔍 Esplora gli Appunti per Anno
@@ -32,3 +28,10 @@ Il materiale presente in questo repository è frutto di **appunti personali** e 
 [![Invia una pull request](https://img.shields.io/badge/Invia%20una%20pull%20request-green)](https://github.com/StefanoBollella/Appunti_Universitari/pulls)
 
 </div>
+
+## Licenza
+
+[![GitHub license](https://img.shields.io/github/license/StefanoBollella/Appunti_Universitari)](https://github.com/StefanoBollella/Appunti_Universitari/blob/main/LICENSE)
+
+
+
