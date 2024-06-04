@@ -1,0 +1,9 @@
+src/myproject/player/Tokenable.java
+src/myproject/player/Player.java
+src/myproject/grid/FullColumnException.java
+src/myproject/grid/GridManager.java
+src/myproject/grid/Grid.java
+src/myproject/gamestate/GameStateInformation.java
+src/myproject/gamestate/GameState.java
+src/myproject/gamemanager/GameManager.java
+src/myproject/gamedata/GameData.java
