@@ -1,4 +1,4 @@
-## Esercitazioni
+## Esercitazioni 📖
 
 | Contenuti |
 | :---: |
