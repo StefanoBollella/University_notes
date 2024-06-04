@@ -1,5 +1,5 @@
 # Appunti_Universitari
-Appunti delle lezioni, progetti e esercitazioni svolte per il corso di Laurea in Informatica (triennale) presso L'università La Sapienza. Gli appunti sono organizzati per materia. 
+Appunti delle lezioni, progetti e esercitazioni svolti durante il corso di Laurea in Informatica (triennale) presso L'università La Sapienza. Gli appunti sono organizzati per materia. 
 [![GitHub license](https://img.shields.io/github/license/StefanoBollella/Appunti_Universitari)](https://github.com/StefanoBollella/Appunti_Universitari/blob/main/LICENSE)
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/StefanoBollella/Appunti_Universitari)](https://github.com/StefanoBollella/Appunti_Universitari/commits/main)
@@ -9,7 +9,7 @@ Appunti delle lezioni, progetti e esercitazioni svolte per il corso di Laurea in
 * [3˚ Anno](3_anno/)
 
 
-# Disclaimer
+# Disclaimer ⚠️
 Il materiale presente in questo repository è frutto di appunti personali e viene condiviso a scopo puramente informativo e di consultazione. Non si garantisce l'accuratezza, la completezza o l'aggiornamento delle informazioni contenute. L'autore non si assume alcuna responsabilità per eventuali errori, omissioni o conseguenze derivanti dall'utilizzo di tali informazioni.
 
 
