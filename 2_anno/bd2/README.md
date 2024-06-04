@@ -1,7 +1,3 @@
-# Appunti
-
-* [Appunti](appunti/)
-
 # Esercitazioni
 
 * [Esercitazioni](esercitazioni/)
