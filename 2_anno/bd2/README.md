@@ -3,6 +3,6 @@
 | Contenuti |
 | :---: |
 | [Appunti](appunti/) |
-| [Esercitazioni](esercitazioni/) |
+| [Esercitazioni](esercitazioni/README.dm) |
 | [Progetti](progetti/) |
 
