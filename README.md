@@ -17,8 +17,8 @@ Raccolta di appunti, progetti ed esercitazioni, frutto del mio percorso di studi
 
 | Anno | Contenuti |
 |---|---|
-| **1° Anno** | [Metotologie di Programmazione](1_anno/README.md), ... |
-| **2° Anno** | [Basi di Dati 2](2_anno/bd2/README.md), ... |
+| **1° Anno** | [Metotologie di Programmazione](1_anno/README.md) |
+| **2° Anno** | [Basi di Dati 2](2_anno/bd2/README.md) |
 | **3° Anno** |  ... |
 
 ## ⚠️ Disclaimer
