@@ -5,7 +5,6 @@
 **Università La Sapienza di Roma**
 
 [![GitHub license](https://img.shields.io/github/license/StefanoBollella/Appunti_Universitari)](https://github.com/StefanoBollella/Appunti_Universitari/blob/main/LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/StefanoBollella/Appunti_Universitari)](https://github.com/StefanoBollella/Appunti_Universitari/commits/main)
 
 </div>
 
