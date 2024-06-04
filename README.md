@@ -1,6 +1,6 @@
 <div align="center">
 
-# Appunti Corso di Laurea in Informatica 🎓
+# Appunti Corso di Laurea in Informatica 🎓💻
 
 **Università La Sapienza di Roma**
 
