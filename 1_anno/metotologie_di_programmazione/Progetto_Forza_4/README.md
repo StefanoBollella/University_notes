@@ -2,6 +2,7 @@
 Progetto individuale per l'esame di Metotologie di Prograzione anno accademico 2021/2022.
 Simulazione del gioco Forza 4, pensato per l’esecuzione su console.
 
+[![]([https:://github/Stefano_](https://github.com/StefanoBollella/Appunti_Universitari/blob/main/1_anno/metotologie_di_programmazione/Progetto_Forza_4/IMG_0879.PNG))]
 
 # Come compilare ed eseguire il progetto su console
 
