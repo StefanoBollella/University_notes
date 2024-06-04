@@ -27,7 +27,9 @@ Il materiale presente in questo repository è frutto di **appunti personali** e 
 
 ## Contribuisci 
 <div align="center">
+  
 [![Apri una issue](https://img.shields.io/badge/Apri%20una%20issue-blue)](https://github.com/StefanoBollella/Appunti_Universitari/issues)
 
 [![Invia una pull request](https://img.shields.io/badge/Invia%20una%20pull%20request-green)](https://github.com/StefanoBollella/Appunti_Universitari/pulls)
+
 </div>
