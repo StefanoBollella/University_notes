@@ -8,14 +8,14 @@ Simulazione del gioco Forza 4, pensato per l’esecuzione su console.
 
 Dato l'elevato numero di file sorgente da compilare viene utilizzata l'opzione 
 @filename sulla riga di comando. 
-È stato creato un file apposito che elenca tutti i nomi dei file sorgente da compilare, chiamato argumentFiles.txt presente nella directory * [Forza4](Forza4/) del progetto.
+È stato creato un file apposito che elenca tutti i nomi dei file sorgente da compilare, chiamato argumentFiles.txt presente nella directory [Forza4](Forza4/) del progetto.
 Questo file viene passato nell'opzione di input per javac.
 
 1) Occorre posizionarsi nella directory del progetto Forza4 e eseguire il comando: 
   
     javac -d build @argumentFiles.txt
 
-2) successivamente bisogna spostarsi nella cartella build del progetto.
+2) successivamente bisogna spostarsi nella directory [build](Forza4/build/) del progetto.
 
 Dopo aver compilato tutti i file necessari occorre creare un file jar.
 Al momento della sua creazione bisogna indicare qual è il punto di ingresso dell'applicazione. Per questo motivo è stato creato un file Manifest.txt
