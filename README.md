@@ -17,7 +17,7 @@ Il materiale presente in questo repository è frutto di appunti personali e vien
 Se trovi errori, sentiti libero di aprire una issue o inviare una pull request.
 
 <div align="center">
-  <a href="https://github.com/TUO_USERNAME/repository_appunti/issues">Apri una issue</a> &nbsp; &nbsp;
-  <a href="https://github.com/TUO_USERNAME/repository_appunti/pulls">Invia una pull request</a>
+  <a href="https://github.com/StefanoBollella/Appunti_Universitari/issues">Apri una issue</a> &nbsp; &nbsp;
+  <a href="https://github.com/StefanoBollella/Appunti_Universitari/pulls">Invia una pull request</a>
 </div>
 
