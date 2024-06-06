@@ -1,5 +1,31 @@
---Esercitazione su database Accademia
+/* Esercitazione su database Accademia
+Persona (_id_, nome, cognome, posizione, stipendio)
 
+Progetto (_id_, nome, inizio, fine, budget)
+
+-  altra chiave: (nome) 
+-  vincolo di ennupla: inizio < fine
+
+WP (_progetto_, _id_, nome, inizio, fine)
+
+- vincolo di ennupla: inizio < fine
+- altra chiave: (progetto, nome)
+- foreign key: progetto references Progetto(id)
+
+AttivitaProgetto (_id_, persona, progetto, wp, giorno, tipo, oreDurata)
+- foreign key: persona references Persona(id) 
+- foreign key: (progetto, wp) references WP(progetto, id)
+
+AttivitaNonProgettuale (_id_, persona, tipo, giorno, oreDurata)
+
+- foreign key: persona references Persona(id)
+
+Assenza (_id_, persona, tipo, giorno)
+
+- altra chiave: (persona, giorno)
+- foreign key: persona references Persona(id)
+
+*/
 /*
   1. Quali sono i cognomi distinti di tutti gli strutturati?
   persona(id*, nome, cognome, posizione, stiopendio)
