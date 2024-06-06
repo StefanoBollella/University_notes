@@ -1,3 +1,24 @@
+/* Esercitazione su DataBase Cielo
+
+Volo (_codice_, _comp_, durataMinuti) 
+foreign key: comp references Compagnia(nome) [VincoloDB.2] 
+foreign key: (codice, comp) references ArrPart(codice, comp)
+
+ArrPart (_codice_, _comp_, arrivo, partenza)
+foreign key: (codice, comp) references Volo(codice, comp) 
+foreign key: arrivo references Aeroporto(codice)
+foreign key: partenza references Peroporto(codice)
+
+Aeroporto (_codice_, nome)
+foreign key: codice references LuogoAeroporto(aeroporto)
+ 
+LuogoAeroporto (_aeroporto_, citta, nazione) 
+foreign key: aeroporto references Aeroporto(codice)
+
+Compagnia (_nome_, annoFondaz)   annoFondaz può essere NULL
+*/
+
+
 -- 11. Quali sono le compagnie che hanno voli
 -- che partono dall’aeroporto ‘FCO’, atterrano all’aeroporto ‘JFK’,
 -- e di cui si conosce l’anno di fondazione?
