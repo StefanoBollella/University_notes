@@ -1,5 +1,5 @@
 
-/* Esercitazione su database Cielo 2 
+/* Esercitazione su database Cielo 
 
 Volo (_codice_, _comp_, durataMinuti) 
 foreign key: comp references Compagnia(nome) [VincoloDB.2] 
