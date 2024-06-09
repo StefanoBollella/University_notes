@@ -24,10 +24,10 @@ select p.posizione,
 2. Quali sono i ricercatori (tutti gli attributi) con uno stipendio superiore alla media
 della loro categoria?
 R: 
-0	 "Anna"	    "Bianchi"	    "Ricercatore"	      45500.3
-2	 "Barbara"	"Burso"	      "Ricercatore"	      40442.5
-12 "Dario"   	"Basile"	    "Ricercatore"     	42566
-20 "Carla"	  "Martinelli"	"Ricercatore"	      42030.2
+0  "Anna"	"Bianchi"	    "Ricercatore"	      45500.3
+2  "Barbara"	"Burso"	            "Ricercatore"	      40442.5
+12 "Dario"   	"Basile"	    "Ricercatore"             42566
+20 "Carla"	"Martinelli"	    "Ricercatore"	      42030.2
 
 */
 
@@ -85,3 +85,66 @@ where ap.persona = p.id
 group by p.id, p.nome, p.cognome, p.posizione, p.stipendio
 having sum(ap.oreDurata) >= 20;
 
+/*
+5. Quali sono i progetti la cui durata è superiore alla media delle durate di tutti i
+progetti? Restituire nome dei progetti e loro durata in giorni.
+
+2	"WineSharing"	"1999-01-01"	"2003-12-31"	998000	1825
+3	"Simap"   	"2010-02-01"    "2014-03-17"    158000	1505
+*/
+
+with media_ore as ( 
+	select avg(progetto.fine - progetto.inizio) as media
+	from progetto
+  )
+select p.*, (p.fine -p.inizio) as durata_giorni
+from progetto as p, media_ore
+where (p.fine - p.inizio) > media_ore.media
+
+/*
+ 6. Quali sono i progetti terminati in data odierna che hanno avuto attività di tipo
+ “Dimostrazione”? Restituire nome di ogni progetto e il numero complessivo delle
+ ore dedicate a tali attività nel progetto.
+
+R: "Pegasus"	15	
+*/
+
+select pt.nome, sum(atp.oredurata) as ore_tot
+from progetto as pt, attivitaprogetto as atp
+where atp.progetto = pt.id and
+      atp.tipo = 'Dimostrazione' and
+	  pt.fine <= current_date
+group by pt.id
+/*
+7. Quali sono i professori ordinari che hanno fatto più assenze per malattia 
+   del numero di assenze medio per malattia dei professori associati? Restituire id, nome e
+   cognome del professore e il numero di giorni di assenza per malattia.
+R :  10	"Ginevra"	"Riva"	3
+*/
+
+select po.id, 
+       po.nome, 
+       po.cognome, 
+      count(ao.id) as numero_assenze_malattia
+	   
+from persona as po, -- professori ordionarii
+     assenza as ao, -- assenze professori ordinarii
+     (    -- numero assenze per malattia per singolo professore associato
+	  select count(aa.id) as numero_assenze  
+	  from persona as pa, -- professori associati
+	       assenza as aa  -- assenze professori associati
+	  where pa.posizione = 'Professore Associato' and 
+	        aa.persona = pa.id and
+			aa.tipo = 'Malattia'
+	  group by pa.id
+	 
+	 ) as n_associato_malattia
+	 
+ where po.posizione = 'Professore Ordinario' and
+       ao.persona = po.id and
+	   ao.tipo = 'Malattia'
+ group by po.id, po.nome, po.cognome
+ having count(ao.id) > avg(n_associato_malattia.numero_assenze) --media sul nuemero di assenze per malattia per singolo professore associato
+
+ 
+ 
