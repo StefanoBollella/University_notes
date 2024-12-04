@@ -6,7 +6,7 @@
 
 </div>
 
-Raccolta di appunti, progetti ed esercitazioni, frutto del mio percorso di studi nel Corso di Laurea in Informatica (Triennale) presso l'Università La Sapienza di Roma.
+Raccolta di appunti, progetti ed esercitazioni, frutto del mio percorso di studi nel Corso di Laurea triennale in Informatica presso l'Università La Sapienza di Roma.
 
 ## Appunti per Anno 🔍 
 
