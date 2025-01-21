@@ -1,12 +1,12 @@
 <div align="center">
 
-# Appunti Corso di Laurea in Informatica 🎓💻
+# Computer Science Graduate Course Notes 🎓💻
 
 **Università La Sapienza di Roma** 🏛️
 
 </div>
 
-Raccolta di appunti, progetti ed esercitazioni, frutto del mio percorso di studi nel Corso di Laurea triennale in Informatica presso l'Università La Sapienza di Roma.
+Collection of notes, projects and exercises from my studies in the Three-Year Bachelor's Degree Program in Computer Science at La Sapienza University of Rome.
 
 ## Appunti per Anno 🔍 
 
